@@ -1,0 +1,140 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:excel"><x:Name><center><b>ALL REPORT</b></center></x:Name><body><table border="2px" bgcolor="white">
+      <thead>
+        <tr>
+          <th scope="col">S.No</th>
+          <th scope="col">Order Number</th>
+          <th scope="col">Receipt Number</th>
+          <th scope="col">Created At</th>
+          <th scope="col">Customer Mobile</th>
+          <th scope="col">Payment Mode</th>
+          <th scope="col">Package</th>
+          <th scope="col">Payment Status</th>
+          <th scope="col">Special Guest</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody> 
+        <!-- ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">1</td> 
+          <td class="ng-binding">Order_22092018_11</td>
+          <td class="ng-binding">RCPT_22092018_11</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">35.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">2</td> 
+          <td class="ng-binding">Order_22092018_10</td>
+          <td class="ng-binding">RCPT_22092018_10</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">70.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">3</td> 
+          <td class="ng-binding">Order_22092018_9</td>
+          <td class="ng-binding">RCPT_22092018_9</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">40.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">4</td> 
+          <td class="ng-binding">Order_22092018_8</td>
+          <td class="ng-binding">RCPT_22092018_8</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">75.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">5</td> 
+          <td class="ng-binding">Order_22092018_7</td>
+          <td class="ng-binding">RCPT_22092018_7</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash  Paytm </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">150.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">6</td> 
+          <td class="ng-binding">Order_22092018_6</td>
+          <td class="ng-binding">RCPT_22092018_6</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">   Online</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">195.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">7</td> 
+          <td class="ng-binding">Order_22092018_5</td>
+          <td class="ng-binding">RCPT_22092018_5</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding"> Card  </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">420.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">8</td> 
+          <td class="ng-binding">Order_22092018_4</td>
+          <td class="ng-binding">RCPT_22092018_4</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">195.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">9</td> 
+          <td class="ng-binding">Order_22092018_2</td>
+          <td class="ng-binding">RCPT_22092018_3</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">705.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">10</td> 
+          <td class="ng-binding">Order_22092018_3</td>
+          <td class="ng-binding">RCPT_22092018_2</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">75.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  --><tr ng-repeat="data in AllReportDetails |filter:receiptno " class="ng-scope">
+          <td class="ng-binding">11</td> 
+          <td class="ng-binding">Order_22092018_1</td>
+          <td class="ng-binding">RCPT_22092018_1</td>
+          <td class="ng-binding">22 Sep 2018</td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Cash   </td>
+          <td class="ng-binding"></td>
+          <td class="ng-binding">Paid</td>
+          <td class="ng-binding">NO</td>
+          <td class="ng-binding">524.00</td>
+        </tr><!-- end ngRepeat: data in AllReportDetails |filter:receiptno  -->
+      </tbody>
+    </table></body></html>
