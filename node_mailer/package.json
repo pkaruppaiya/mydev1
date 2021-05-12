@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "nodemailer": "^4.6.7"
+    "nodemailer": "^6.4.16"
   }
 }
